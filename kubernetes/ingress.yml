@@ -8,7 +8,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: "app.durgasri.in"
+    - host: "hari-app.durgasri.in"
       http:
         paths:
           - pathType: Prefix
@@ -29,7 +29,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: "health.durgasri.in"
+    - host: "hari-h.durgasri.in"
       http:
         paths:
           - pathType: Prefix
